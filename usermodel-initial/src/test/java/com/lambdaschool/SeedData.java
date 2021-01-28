@@ -1,4 +1,4 @@
-package com.lambdaschool.usermodel;
+package com.lambdaschool;
 
 import com.github.javafaker.Faker;
 import com.github.javafaker.service.FakeValuesService;

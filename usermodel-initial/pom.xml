@@ -15,7 +15,7 @@
     <description>Demo project for Spring Boot</description>
 
     <properties>
-        <java.version>14</java.version>
+        <java.version>15</java.version>
     </properties>
 
     <dependencies>
@@ -76,6 +76,11 @@
             <version>2.9.2</version>
         </dependency>
         <!-- Swagger Dependencies End -->
+        <dependency>
+            <groupId>org.springframework.security</groupId>
+            <artifactId>spring-security-test</artifactId>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 
     <build>

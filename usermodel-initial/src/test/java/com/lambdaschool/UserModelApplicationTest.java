@@ -1,4 +1,4 @@
-package com.lambdaschool.usermodel;
+package com.lambdaschool;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -7,9 +7,9 @@ import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 /**
  * Main class to start the application.
  */
-@EnableJpaAuditing
+//@EnableJpaAuditing // because we are not doing any auditing testing
 @SpringBootApplication
-public class UserModelApplication
+public class UserModelApplicationTest
 {
     /**
      * Main method to start the application.
@@ -18,7 +18,7 @@ public class UserModelApplication
      */
     public static void main(String[] args)
     {
-        SpringApplication.run(UserModelApplication.class,
+        SpringApplication.run(UserModelApplicationTest.class,
             args);
     }
 }
